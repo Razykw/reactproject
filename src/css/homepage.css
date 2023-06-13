@@ -1,0 +1,21 @@
+.home-page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.home-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 24px;
+}
