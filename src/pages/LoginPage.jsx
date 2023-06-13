@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getAuth, setPersistence, signInWithEmailAndPassword, browserSessionPersistence } from "firebase/auth";
+import { setPersistence, signInWithEmailAndPassword, browserSessionPersistence } from "firebase/auth";
 import { auth } from './firebase.js';
 import '../css/loginpage.css';
 

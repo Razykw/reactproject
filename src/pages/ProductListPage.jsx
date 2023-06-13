@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+// import { useNavigate, useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import { get, ref, update, remove,onValue } from 'firebase/database';
+import {  ref, remove,onValue } from 'firebase/database';
 import { db } from './firebase.js'; // Adjust the import based on your folder structure
 import '../css/ProductListPage.css';
 

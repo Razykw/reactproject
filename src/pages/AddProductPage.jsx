@@ -8,10 +8,10 @@ function AddProductPage() {
   const [price, setPrice] = useState('');
   const [image, setImage] = useState(null);
 
-  const handleImageChange = (e) => {
-    const selectedImage = e.target.files[0];
-    setImage(selectedImage);
-  };
+  // const handleImageChange = (e) => {
+  //   const selectedImage = e.target.files[0];
+  //   setImage(selectedImage);
+  // };
 
   const handleSubmit = (e) => {
     e.preventDefault();

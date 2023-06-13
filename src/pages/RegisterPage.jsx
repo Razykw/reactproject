@@ -27,6 +27,7 @@ const RegisterPage = () => {
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
+      alert("user succesfully registed:",user);
       // User is registered, redirect to homepage or user dashboard
     } catch (error) {
       console.error("Error registering user", error);

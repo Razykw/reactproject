@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { get, ref, onValue } from 'firebase/database';
+import {  ref, onValue } from 'firebase/database';
 import { db } from './firebase.js';
 import ProductCard from '../components/ProductCard';
 import { Link } from 'react-router-dom';
@@ -8,7 +8,7 @@ import '../css/productcard.css';
 
 function ProductsPage() {
   const [products, setProducts] = useState([]);
-  const { cartItems, addToCart } = useContext(CartContext); // use addToCart instead of setCartItems
+  const {  addToCart } = useContext(CartContext); // use addToCart instead of setCartItems
 
   const handleAddToCart = (product) => {
     addToCart(product); // use addToCart from CartContext
